@@ -28,3 +28,7 @@ ion-slides {
   display: flex;
   justify-content: end;
 }
+.datecol{
+  display: flex;
+  justify-content: end;
+}

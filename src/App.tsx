@@ -11,7 +11,7 @@ import {
   setupIonicReact
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { barChartOutline, listOutline, serverOutline, bicycleOutline, informationCircleOutline } from 'ionicons/icons';
+import { barChartOutline, listOutline, serverOutline, bicycleOutline, informationCircleOutline, calendarOutline } from 'ionicons/icons';
 import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
@@ -92,7 +92,7 @@ const App: React.FC = () =>  {
               <IonLabel>Остатки</IonLabel>
             </IonTabButton>
             <IonTabButton tab="tab3" href="/tab3" class = { cl3 }>
-              <IonIcon icon={serverOutline} />
+              <IonIcon icon={calendarOutline} />
               <IonLabel>История</IonLabel>
             </IonTabButton>
             {/* <IonTabButton tab="tab4" href="/tab4" class = { cl4 }>

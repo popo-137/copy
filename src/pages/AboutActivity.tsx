@@ -40,10 +40,10 @@ const AboutActivity: React.FC = () => {
                   Нашли ошибку или есть пожелания о поводу приложения?
                   <br></br>
                   Свяжитесь с нами
+                  <br></br><br></br>
+                  <div>Почта: <a href="mailto:logika1c@mail.ru">logika1c@mail.ru</a></div>
                   <br></br>
-                  <a href="mailto:logika1c@mail.ru">logika1c@mail.ru</a>
-                  <br></br>
-                  <a href="tel:89142924403">+7(914) 292-44-03</a>
+                  <div>Телефон: <a href="tel:89142722511">+7(914) 272-25-11</a></div>
                 </p>
               </IonText>
             </IonCol>
